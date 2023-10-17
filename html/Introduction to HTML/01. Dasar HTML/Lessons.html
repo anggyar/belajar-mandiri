@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>All Lesson from HMTL in Mozila Developer</title>
+	</head>
+	<body>
+		<!-- !  Nesting Element -->
+		<!-- ? Nesting Elemen digunakan untuk menambahakan suatu efek atau informasi tambahan agar lebih mudah diperhatikan oleh pengguna atau user. -->
+		<p>My Cat is <strong>very</strong> grumpy.</p>
+		<hr />
+
+		<!--! Image Adalah Void Elemen -->
+		<!-- ? Void elemen adalah elemen yang tidak memiliki tag penutup, atau hanya menggunakan tag gunggal contohnya adalah tag img -->
+		<img
+			src="../assets/image/Photoshopedia-Xedia-Firefox.256.png"
+			alt="Firefox Icon" />
+		<hr />
+
+		<!-- ! Atribut Elemen -->
+		<!-- ? Dalam suatu elemen misalnya elemen paragraf, bisa terdapat atribut yang akan menjadi pembeda paragraf 1 dan lainnya. -->
+
+		<p class="editor-note">
+			My cat is very grumpy (<i>with class called editor-note</i>)
+		</p>
+		<p>Dalam sebuah atribut harus memiliki:</p>
+		<ul>
+			<li>
+				Jarak antara nama atribut dengan nama elemen. (<i
+					>Untuk sebuah elemen yang terdapat lebih dari 1 atribut, maka tiap
+					atribut tetap harus dipisahkan dengan jarak atau spasi).</i
+				>
+			</li>
+			<li>Nama atribut, harus diikuti dengan tanda sama dengan (=)</li>
+			<li>
+				Nilai dari sebuah atribut, dibungkus dengan kutip pembuka dan penutup
+			</li>
+		</ul>
+		<hr />
+
+		<!-- !Elemen <a> atau Anchor Element-->
+		<!-- ?Elemen Anchor akan memberikan efek Hyperlink pada content yang dibungkus oleh <a>-->
+		<!-- *Anchor element bisa memiliki banyak atribut, diantaranya adalah href, title, target. -->
+		<p>
+			Situs favorit ku adalah
+			<a href="http://x.com" target="_blank" title="Situs mas Elon!"
+				>Twitter.</a
+			>
+		</p>
+
+		<!-- !Boolean Attributes -->
+		<!-- ?Boolean attribute adalah atrribute yang hanya memiliki 1 nilai, yang umumnya sama dengan nama atribut itu sendiri  -->
+		<input type="text" disabled="disabled" />
+
+		<!-- using the disabled attribute prevents the end user from entering text into the input box -->
+		<input type="text" disabled />
+
+		<!-- text input is allowed, as it doesn't contain the disabled attribute -->
+		<input type="text" />
+		<hr />
+		<h1>Some music</h1>
+		<p>
+			I really enjoy <strong>playing the drums</strong>. One of my favorite
+			drummers is Neal Peart, who plays in the band
+			<a
+				href="https://en.wikipedia.org/wiki/Rush_%28band%29"
+				title="Rush Wikipedia article"
+				>Rush</a
+			>. My favorite Rush album is currently
+			<a href="http://www.deezer.com/album/942295">Moving Pictures</a>.
+		</p>
+		<img
+			src="http://www.cygnus-x1.net/links/rush/images/albums/sectors/sector2-movingpictures-cover-s.jpg"
+			alt="Rush Moving Pictures album cover" />
+            <hr>
+            <p id="noWhitespace">Dogs are silly.</p>
+
+<p id="whitespace">Dogs
+    are
+        silly.</p>
+<script src="../scripts/lessons.js"></script>
+	</body>
+</html>
