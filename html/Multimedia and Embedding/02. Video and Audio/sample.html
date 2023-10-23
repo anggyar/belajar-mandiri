@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css">
+        <title>Video and Audio</title>
+    </head>
+    <body>
+        <section class="video">
+            <h1>Ini adalah Pembelajaran Video</h1>
+            <video controls controls width="400" height="400" loop muted preload="auto" poster="Content/poster.png">
+                <source src="Content/rabbit320.mp4" type="video/mp4" />
+                <source src="Content/rabbit320.webm" type="video/webm" />
+				<track kind="subtitles" src="subtitles_es.vtt" srclang="es" label="Spanish">
+
+                <p>
+                    Your browser doesn't support this video. Here is a
+                    <a href="rabbit320.mp4">link to the video</a> instead.
+                </p>
+            </video>
+        </section>
+		
+        <section class="audio">
+			<h1>Ini adalah Pembelajaran Audio</h1>
+            <audio controls>
+                <source src="Content/viper.mp3" type="audio/mp3" />
+                <source src="Content/viper.ogg" type="audio/ogg" />
+				
+                <p>
+                    Your browser doesn't support this audio file. Here is a
+                    <a href="viper.mp3">link to the audio</a> instead.
+                </p>
+            </audio>
+        </section>
+    </body>
+</html>
