@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Other Embedding Tech</title>
 
-          <style>
-    iframe {
-      border: none;
-    }
-  </style>
+        <style>
+            iframe {
+                border: none;
+            }
+        </style>
     </head>
     <body>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/nq1M_Wc4FIc?si=iYAwMbbNHoV4MAaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -21,5 +21,18 @@
                 <a href="/en-US/docs/Glossary"> Fallback link for browsers that don't support iframes </a>
             </p>
         </iframe>
+
+        <h1>Vector Graphic</h1>
+        <svg version="1.1" baseProfile="full" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" fill="black" />
+            <circle cx="150" cy="100" r="90" fill="blue" />
+        </svg>
+
+        <h1>Responsive HTML</h1>
+        <picture>
+            <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg" />
+            <source media="(min-width: 800px)" srcset="elva-800w.jpg" />
+            <img src="responsive-images/elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+        </picture>
     </body>
 </html>
